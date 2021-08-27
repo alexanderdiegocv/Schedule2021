@@ -1,5 +1,5 @@
 root {
-
+    
 }
 
 body {
@@ -20,7 +20,7 @@ body {
     align-items: center;
     /* place-items: center / center;
     place-content: center / space-evenly; */
-    background-color: rgba(40, 45, 51, 0.931);
+    background-color: rgb(197, 137, 109);
     padding: 15px;
 }
 
@@ -29,12 +29,12 @@ body {
 } 
 
 .article {
-    background-color: rgba(22, 54, 97, 0.938);
+    background-color: rgba(161, 25, 25, 0.938);
     text-align: center;
 }
 
 .article p {
-    color: #ffffff;
+    color: #e9e9e9;
 }
 
 .grid-item1 {
