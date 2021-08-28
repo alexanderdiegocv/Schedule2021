@@ -8,7 +8,7 @@
     <title>Schedule 2021</title>
 </head>
 <body>
-    <section class="section">
+    <section class="section" id="section">
         <article class="article grid-item">
             <p class="dia">Hour</p>
         </article>
@@ -229,26 +229,24 @@
             <p class="dia">Subject</p>
         </article> -->
 
-        <article class="article grid-item">
-            <input type="text" placeholder="Hour" class="hour" id="hour">
-        </article>
-        <article class="grid-item">
-            <input type="text" placeholder="Subject" class="subject" id="subjet1">
-        </article>
-        <article class="grid-item">
-            <input type="text" placeholder="Subject" class="subject" id="subjet2">
-        </article>
-        <article class="grid-item">
-            <input type="text" placeholder="Subject" class="subject" id="subjet3">
-        </article>
-        <article class="grid-item">
-            <input type="text" placeholder="Subject" class="subject" id="subjet4">
-        </article>
-        <article class="grid-item">
-            <input type="text" placeholder="Subject" class="subject" id="subjet5">
-        </article>
+        <form action="" method="get" class="form grid-item" id="newsubjects">
+            <input type="time" placeholder="Hour" class="grid-item_form hour" id="hour">
+
+            <input type="text" placeholder="Subject" class="grid-item_form subject" id="subject1">
+
+            <input type="text" placeholder="Subject" class="grid-item_form subject" id="subject2">
+
+            <input type="text" placeholder="Subject" class="grid-item_form subject" id="subject3">
+
+            <input type="text" placeholder="Subject" class="grid-item_form subject" id="subject4">
+
+            <input type="text" placeholder="Subject" class="grid-item_form subject" id="subject5">
+
+            <input type="submit" value="Send">
+        </form>
     </section>
 
-    <script src="./js/script.js"></script>
+    <script src="./js/script.js" type="module"></script>
+    <script src="./mjs/index.mjs" type="module"></script>
 </body>
 </html>
